@@ -3,6 +3,8 @@
 - you can construct the order in a realtime
 - each handler knows only about the next possible handler
 - each handler can stop processing and break the chain
+- you can introduce new handlers without breaking the existing app (open-closed principle)
+- your handlers are decoupled (single responsibility principle)
 */
 
 
